@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+header nav{
+    width: 100%;
+    background: #ff6363;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 10PX;
+
+}
+
+header li a{
+    color: rgb(82, 34, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: .5s;
+}
+
+header li a:hover{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+header a.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+header #hero{
+    width: 100%;
+    height: 94vh;
+    text-align: center;
+    background: url("../IMG/horizontal.jpg");
+    background-size: cover;
+
+}
+
+header #hero h1{
+    padding-top: 300px;
+    color: white;
+    font-size: 45px;
+
+}
+header #hero h3{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+header #hero p{
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding-left: 150PX;
+    padding-right: 150PX;
+
+}
+
+header #hero a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 15px 45px;
+    display: flex;
+    align-items: center;
+    max-width: 120px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header #hero img{
+    margin-right: 10px;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#about{
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+#about .fila{
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#about .fila img{
+    width: 500px;
+    transition: .5s;
+}
+
+#about .fila img:hover{
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#about .fila .cont-info{
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+#about h2{
+    color: black;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#services{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    background: url(../IMG/img1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#services h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+#services .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#services .fila .card{
+    width: 30%;
+    text-align: center;
+    background: #ffffff82;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 10px;
+    transition: .5s;
+}
+
+#services .fila .card:hover{
+    background: #ffffff;
+    border-radius: 0;
+    transform: translateY(-30px);
+}
+
+/* #services .fila .card:hover h3,
+#services .fila .card:hover p{
+    color: white;
+} */
+
+
+#services .card h3{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#services .card p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#services .card a{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+#video{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+}
+
+#video h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#video .cont-video{
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: black;
+    color: rgb(255, 255, 255);
+}
